@@ -1,0 +1,525 @@
+body {
+    font-family: Source Sans Pro,sans-serif;
+    color: #656565;
+    margin: 0;
+    padding: 0;
+    color: #232323;
+    font-size: 1em;
+    line-height: 1.4;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-weight: 300;
+    background-color: #fbfbfb !important;
+    background: #fbfbfb url(../img/bg_nn.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.pageHeader{
+    position: fixed;
+    width: 100%;
+    z-index:1;
+}
+
+.m-t57 {
+margin-top:72px;
+}
+
+.m-b0 {
+    margin-bottom: 0;
+}
+.p-t0 {
+    padding-top: 0;
+}
+
+.m-t26 {
+margin-top: 26px;
+}
+
+.m-b50 {
+margin-bottom: 50px;
+}
+.hpanel {
+    background-color: none;
+    border: none;
+    box-shadow: none;
+        min-height: initial !important;
+  padding: 6px 10px;
+}
+
+.togle-body {
+    padding: 5px 10px;
+}
+.hpanel-heading {
+    color: inherit;
+    font-weight: 600;
+    padding: 2px 4px;
+    transition: all .3s;
+    border: 1px solid transparent;
+    font-size: 16px;
+}
+.hpanel-body {
+  background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #e4e5e7;
+    border-radius: 2px;
+    padding: 10px;
+    position: relative;
+    text-align: justify;
+}
+
+.hpanel-body h4{
+    margin:0;
+}
+.hr-line-dashed {
+    background-color: transparent;
+    border-top: 1px dotted  #E4E5E7;
+    color: transparent;
+    height: 1px;
+    margin: 10px 0;
+}
+.bc {
+    background: #fbfbfb url(../img/mother_logo.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 85% 95%;
+    height: 100%;
+}
+
+md-autocomplete {
+    margin: 8px 0;
+}
+
+
+.md-button.sub-btn {
+    line-height: 20px;
+    width: auto;
+    height: auto;
+    padding: 18px;
+    right: calc(50% - 76px) !important;
+}
+
+md-input-container {
+    margin: 8px 0;
+}
+
+.md-button.custombtn {
+    font-weight: 600;
+    background: #ffab23;
+    border: 2px solid #ffaa22;
+    color: #333;
+}
+
+    .md-button.custombtn:not([disabled]):hover, .md-button.custombtn:not([disabled]):hover, .md-button.custombtn.md-focused {
+        background-color: #f79f11;
+    }
+
+md-input-container > md-icon {
+    font-size: 20px;
+    text-align: center;
+}
+
+md-input-container.md-input-invalid > md-icon.email,
+md-input-container.md-input-invalid > md-icon.name {
+    color: red;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+md-tabs.md-default-theme md-ink-bar, md-tabs md-ink-bar {
+    color: red !important;
+    background-color: red !important;
+}
+
+.bg-none {
+    background-color: transparent;
+}
+
+.bg-30 {
+    background-color: rgba(255, 255, 255, 0.30);
+}
+
+
+.mt57 {
+margin-top:57px;
+}
+.fa-chevron-circle-right {
+        color: #578842;
+}
+.nav-tabs md-tabs md-pagination-wrapper {
+    background-color: #fff;
+}
+
+.nav-tabs md-tabs .md-tab.md-active {
+    background-color: #80bd65;
+    color: #fff;
+}
+
+.nav-tabs md-tabs .md-tab {
+    font-weight: 600;
+}
+
+.nav-tabs md-tabs md-ink-bar {
+    color: #fff !important;
+    background-color: #578842 !important;
+}
+
+.header-bg {
+    background: #f0f0f0 !important;
+    text-align: center !important;
+    border-top-width: 0px !important;
+    border-bottom: 1px solid #759767;
+    line-height: 50px;
+    position:fixed;
+    z-index:100000;
+}
+
+.header-bg i{
+    font-size:18px;
+        color: #578842;
+        /*color:rgb(244,81,30);*/
+}
+
+.m-b35 {
+    margin-bottom: 35px;
+}
+
+.m-p36 {
+    padding-top: 36px;
+}
+
+.img-logo {
+    height: 46px;
+    /* padding-left: calc(50% - 58px); */
+    position: absolute;
+left: calc(50% - 62px);
+}
+.showHeader {
+}
+
+.p-t15 {
+    padding-top: 15px !important;
+}
+ md-input-container:not(.md-input-invalid).md-input-focused .md-input,   md-input-container:not(.md-input-invalid).md-input-focused label,  md-input-container:not(.md-input-invalid).md-input-focused md-icon
+{
+     border-color:#578842;
+     color:#578842;
+}
+
+
+ .md-subheader .md-subheader-content {
+    font-size:16px;
+    font-weight:600;
+}
+
+
+.scrollTop {
+color: #fff;
+    position: absolute;
+    top: 0;
+    min-height: inherit !important;
+}
+
+
+ 
+
+.scroll {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    display: block;
+    overflow-x: hidden;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+.scroll .page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.scroll .page > div {
+    /*min-height: 100%;*/
+    min-height: calc(100% - 57px);
+}
+.scroll .scrolled {
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: -webkit-transform 1s ease;
+    transition: transform 1s ease;
+    transition: transform 1s ease, -webkit-transform 1s ease;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.scroll .scrolled.ng-enter {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+.scroll .scrolled.ng-enter-active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.scroll .scrolled.ng-leave {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.scroll .scrolled.ng-leave-active {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+.scroll .modal {
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    transition: opacity 1s ease, -webkit-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease, -webkit-transform 1s ease;
+    opacity: 1;
+}
+.scroll .modal.ng-enter {
+    opacity: 0;
+    -webkit-transform: scale(0.95) translate3d(0, 0.5em, 0);
+    transform: scale(0.95) translate3d(0, 0.5em, 0);
+}
+.scroll .modal.ng-enter-active {
+    opacity: 1;
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+    transform: scale(1) translate3d(0, 0, 0);
+}
+.scroll .modal.ng-leave {
+    opacity: 1;
+}
+.scroll .modal.ng-leave-active {
+    opacity: 0;
+}
+.scroll .backward .scrolled.ng-leave {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.scroll .backward .scrolled.ng-leave-active {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+}
+.scroll .backward .scrolled.ng-enter {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+.scroll .backward .scrolled.ng-enter-active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.scroll .backward .modal {
+    -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+    transition: opacity 1s ease, -webkit-transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease;
+    transition: opacity 1s ease, transform 1s ease, -webkit-transform 1s ease;
+    opacity: 1;
+}
+.scroll .backward .modal.ng-enter {
+    opacity: 0;
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+    transform: scale(1) translate3d(0, 0, 0);
+}
+.scroll .backward .modal.ng-enter-active {
+    opacity: 1;
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+    transform: scale(1) translate3d(0, 0, 0);
+}
+.scroll .backward .modal.ng-leave {
+    opacity: 1;
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+    transform: scale(1) translate3d(0, 0, 0);
+}
+.scroll .backward .modal.ng-leave-active {
+    opacity: 0;
+    -webkit-transform: scale(0.95) translate3d(0, 0.5em, 0);
+    transform: scale(0.95) translate3d(0, 0.5em, 0);
+}
+
+
+
+
+/* CSS Loader */
+
+@-webkit-keyframes uil-default-anim {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+@keyframes uil-default-anim {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+.uil-default-css > div:nth-of-type(1) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+.uil-default-css {
+    position: relative;
+    background: none;
+    width: 200px;
+    height: 200px;
+}
+.uil-default-css > div:nth-of-type(2) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: -0.4166666666666667s;
+    animation-delay: -0.4166666666666667s;
+}
+.uil-default-css {
+    position: relative;
+    background: none;
+    width: 200px;
+    height: 200px;
+}
+.uil-default-css > div:nth-of-type(3) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: -0.33333333333333337s;
+    animation-delay: -0.33333333333333337s;
+}
+.uil-default-css {
+    position: relative;
+    background: none;
+    width: 200px;
+    height: 200px;
+}
+.uil-default-css > div:nth-of-type(4) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: -0.25s;
+    animation-delay: -0.25s;
+}
+.uil-default-css {
+    position: relative;
+    background: none;
+    width: 200px;
+    height: 200px;
+}
+.uil-default-css > div:nth-of-type(5) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: -0.16666666666666669s;
+    animation-delay: -0.16666666666666669s;
+}
+.uil-default-css {
+    position: relative;
+    background: none;
+    width: 200px;
+    height: 200px;
+}
+.uil-default-css > div:nth-of-type(6) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: -0.08333333333333331s;
+    animation-delay: -0.08333333333333331s;
+}
+.uil-default-css {
+    position: relative;
+    background: none;
+    width: 200px;
+    height: 200px;
+}
+.uil-default-css > div:nth-of-type(7) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.uil-default-css {
+    position: relative;
+    background: none;
+    width: 200px;
+    height: 200px;
+}
+.uil-default-css > div:nth-of-type(8) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: 0.08333333333333337s;
+    animation-delay: 0.08333333333333337s;
+}
+.uil-default-css {
+    position: relative;
+    background: none;
+    width: 200px;
+    height: 200px;
+}
+.uil-default-css > div:nth-of-type(9) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: 0.16666666666666663s;
+    animation-delay: 0.16666666666666663s;
+}
+.uil-default-css {
+    position: relative;
+    background: none;
+    width: 200px;
+    height: 200px;
+}
+.uil-default-css > div:nth-of-type(10) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+}
+.uil-default-css {
+    position: relative;
+    background: none;
+    width: 200px;
+    height: 200px;
+}
+.uil-default-css > div:nth-of-type(11) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: 0.33333333333333337s;
+    animation-delay: 0.33333333333333337s;
+}
+.uil-default-css {
+    position: relative;
+    background: none;
+    width: 200px;
+    height: 200px;
+}
+.uil-default-css > div:nth-of-type(12) {
+    -webkit-animation: uil-default-anim 1s linear infinite;
+    animation: uil-default-anim 1s linear infinite;
+    -webkit-animation-delay: 0.41666666666666663s;
+    animation-delay: 0.41666666666666663s;
+}
+.uil-default-css {
+    position: relative;
+    background: none;
+    width: 200px;
+    height: 200px;
+    margin: calc(100% - 40%) auto;
+}
+
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: transparent;
+    
+}
+.fade {
+    opacity: 1;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+
+
+/**/
+
+
